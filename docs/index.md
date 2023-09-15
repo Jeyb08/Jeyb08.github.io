@@ -1,17 +1,19 @@
-# Welcome to MkDocs
+# Homepage
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-## Commands
+## Code annotation example
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+### Codeblocks
 
-## Project layout
+Some `code` goes here
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+### Plain Codeblocks
+
+A plain codeblock:
+
+``` py title="thing.py" linenums="1" hl_lines="2 3"
+import matplotlib.pyplot as plt
+print("watever")
+def something()
+```
